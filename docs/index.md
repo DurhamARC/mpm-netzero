@@ -63,4 +63,4 @@ By reducing uncertainty and enabling more optimized technical solutions, this pr
 **Principal Investigator:** Dr William Coombs
 **Co-Investigator:** Professor Charles Augarde
 
-This project is delivered in collaboration with leading offshore renewable energy industry partners including geotechnical consultancies, offshore wind developers, classification societies, and software partners.
+This project is delivered in collaboration with leading offshore renewable energy industry partners: **Cathie**, **Arup**, **First Marine Solutions Ltd**, and **Oasys**.

@@ -50,32 +50,37 @@ The ARC team has successfully delivered software for various applied domains, in
 
 This is an **industry-initiated proposal** driven by stakeholders in the offshore renewable energy geotechnical community who face challenges that cannot be efficiently solved with currently available tools. Our partners represent all aspects of offshore wind, from consent and design to deployment and commissioning.
 
-### Geotechnical Engineering Consultancies
+The project is supported by the following industry partners:
 
-Our consulting partners bring extensive experience in offshore geotechnical engineering, site characterization, foundation design, and installation analysis. They provide critical insights into:
+### Cathie
 
-- Real-world engineering challenges and workflows
-- Industry-standard file formats and software integration requirements
-- Validation case studies and benchmarking scenarios
-- End-user needs for practical engineering applications
+Cathie is a leading offshore geotechnical consultancy with extensive experience in offshore renewable energy projects. They provide expertise in:
 
-### Offshore Wind Developers
+- Offshore geotechnical site investigation and characterization
+- Foundation design and assessment for offshore wind
+- Geotechnical risk management
+- Real-world validation case studies
+- Industry workflow integration requirements
 
-Developer partners provide the operational perspective of deploying offshore renewable energy infrastructure at scale. Their involvement ensures the software addresses:
+### Arup
 
-- Practical deployment challenges
-- Site-specific optimization needs
-- Risk management requirements
-- Integration with project delivery workflows
+Arup is a global engineering consultancy with significant offshore wind experience. Their contribution includes:
 
-### Classification Societies
+- Multi-disciplinary engineering perspective
+- Geotechnical and structural engineering integration
+- Industry standards and best practices
+- Technical validation and review processes
+- Design optimization methodologies
 
-Classification society partners contribute expertise in:
+### First Marine Solutions Ltd
 
-- Standards and certification requirements
-- Safety and reliability assessment
-- Technical review and validation processes
-- Industry best practices
+First Marine Solutions specializes in marine operations and offshore installation. They bring practical operational expertise including:
+
+- Installation vessel operations and planning
+- Offshore deployment challenges
+- Equipment specification and requirements
+- Practical constraints in marine environments
+- Site-specific operational optimization
 
 ### Software Development Partner
 
