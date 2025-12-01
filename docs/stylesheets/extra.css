@@ -521,3 +521,50 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   vertical-align: middle;
 }
+
+/* Image Grid Styling */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border: 1px solid var(--durham-concrete);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.image-item em {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--durham-ink);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 60em) {
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* Ensure images maintain aspect ratio */
+.md-typeset .image-item img {
+  max-width: 100%;
+  display: block;
+}
