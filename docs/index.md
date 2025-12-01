@@ -51,12 +51,12 @@ By reducing uncertainty and enabling more optimized technical solutions, this pr
 
 ## Project Information
 
-<div class="project-logos" markdown="1">
+<div class="project-logos">
 <div class="logo-container">
-![Durham University](img/DurhamUniversityMasterLogo_CMYK.svg){ .partner-logo .durham-logo }
+<img src="img/DurhamUniversityMasterLogo_CMYK.svg" alt="Durham University" class="partner-logo durham-logo">
 </div>
 <div class="logo-container">
-![UK Research and Innovation](img/ukri_logo_new-6d752aa0a1e6d8477ce5fcac6a04b3b8.svg){ .partner-logo .ukri-logo }
+<img src="img/ukri_logo_new-6d752aa0a1e6d8477ce5fcac6a04b3b8.svg" alt="UK Research and Innovation" class="partner-logo ukri-logo">
 </div>
 </div>
 
