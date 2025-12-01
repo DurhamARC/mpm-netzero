@@ -1,17 +1,12 @@
-<div class="hero-section" markdown="1">
+<div class="hero-section">
 <div class="hero-image">
-![Offshore Wind Turbines](img/nicholas-doherty-pONBhDyOFoM-unsplash.jpg)
+<img src="img/nicholas-doherty-pONBhDyOFoM-unsplash.jpg" alt="Offshore Wind Turbines">
 <p class="image-attribution">Photo by <a href="https://unsplash.com/@nrdoherty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nicholas Doherty</a> on <a href="https://unsplash.com/photos/white-electic-windmill-pONBhDyOFoM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 </div>
-
-<div class="hero-content" markdown="1">
-
-# MPM for Net Zero
-
-## Advancing Offshore Renewable Energy Through Computational Innovation
-
-The Material Point Method (MPM) for Net Zero project is developing cutting-edge computational tools to address critical geotechnical challenges in the offshore renewable energy sector. By enabling accurate simulation of large deformation soil-structure interactions, this work directly supports the UK's transition to net zero emissions.
-
+<div class="hero-content">
+<h1>MPM for Net Zero</h1>
+<h2>Advancing Offshore Renewable Energy Through Computational Innovation</h2>
+<p>The Material Point Method (MPM) for Net Zero project is developing cutting-edge computational tools to address critical geotechnical challenges in the offshore renewable energy sector. By enabling accurate simulation of large deformation soil-structure interactions, this work directly supports the UK's transition to net zero emissions.</p>
 </div>
 </div>
 
