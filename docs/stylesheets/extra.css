@@ -417,11 +417,22 @@ h1, h2, h3, h4, h5, h6 {
 /* Back to top button */
 .md-top {
   background-color: var(--durham-purple);
+  color: var(--durham-yellow);
 }
 
 .md-top:hover,
 .md-top:focus {
   background-color: var(--durham-purple-dark);
+  color: #f5ca1a;
+}
+
+.md-top svg {
+  fill: var(--durham-yellow);
+}
+
+.md-top:hover svg,
+.md-top:focus svg {
+  fill: #f5ca1a;
 }
 
 /* Improve spacing and readability for content */
