@@ -54,16 +54,15 @@ Follow project updates and announcements:
 
 ## Visit Durham University
 
-**Department of Engineering**
-Durham University
-South Road
-Durham
-DH1 3LE
-United Kingdom
+**Durham University**  
+South Road  
+Durham  
+DH1 3LE  
+United Kingdom  
 
 [Durham University Engineering Department Website](https://www.durham.ac.uk/departments/academic/engineering/)
 
-[Advanced Research Computing (ARC)](https://dur.ac.uk/arc/)
+[Durham University Advanced Research Computing (ARC) Website](https://dur.ac.uk/arc/)
 
 ---
 
