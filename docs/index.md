@@ -60,11 +60,11 @@ By reducing uncertainty and enabling more optimized technical solutions, this pr
 </div>
 </div>
 
-**Funding:** UK Research and Innovation (UKRI)
-**Project Reference:** UKRI788
-**Lead Institution:** Durham University Engineering Department
+**Funding:** UK Research and Innovation (UKRI)  
+**Project Reference:** UKRI788  
+**Lead Institution:** Durham University Engineering Department  
 
-**Principal Investigator:** Dr William Coombs
-**Co-Investigator:** Professor Charles Augarde
+**Principal Investigator:** Dr William Coombs  
+**Co-Investigator:** Professor Charles Augarde  
 
-This project is delivered in collaboration with leading offshore renewable energy industry partners: **Cathie**, **Arup**, **First Marine Solutions Ltd**, and **Oasys**.
+This project is delivered in collaboration with leading offshore renewable energy industry partners: [Cathie](https://cathiegroup.com/), [Arup](https://www.arup.com/), [First Marine Solutions Ltd](https://www.firstmarinesolutions.com/), and [Oasys](https://www.oasys-software.com/).
