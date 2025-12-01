@@ -19,6 +19,136 @@
   --durham-ink-light: #003d5c;
 }
 
+/* Hero Section Styling */
+.hero-section {
+  margin: -2rem -1rem 2rem -1rem;
+  padding: 0;
+  background: linear-gradient(135deg, var(--durham-purple) 0%, var(--durham-ink) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 76.25em) {
+  .hero-section {
+    margin: -2rem -2rem 2rem -2rem;
+  }
+}
+
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 60em) {
+  .hero-image {
+    height: 500px;
+  }
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  filter: brightness(0.8);
+}
+
+.hero-image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 0%, rgba(104, 36, 109, 0.3) 60%, rgba(104, 36, 109, 0.8) 100%);
+  pointer-events: none;
+}
+
+.image-attribution {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 42, 65, 0.6);
+  padding: 4px 8px;
+  border-radius: 3px;
+  margin: 0;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+}
+
+.image-attribution a {
+  color: var(--durham-yellow);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.image-attribution a:hover {
+  color: #f5ca1a;
+  text-decoration: underline;
+}
+
+.hero-content {
+  padding: 2rem 1.5rem;
+  color: white;
+  position: relative;
+  background: linear-gradient(135deg, var(--durham-purple-dark) 0%, var(--durham-ink) 100%);
+}
+
+@media screen and (min-width: 60em) {
+  .hero-content {
+    padding: 3rem 4rem;
+  }
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 60em) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+}
+
+.hero-content h2 {
+  color: var(--durham-yellow);
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+  border: none;
+  padding: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 60em) {
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.hero-content p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 900px;
+}
+
+@media screen and (min-width: 60em) {
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+}
+
 /* Base Typography - Open Sans with Durham guidelines */
 body {
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
@@ -287,11 +417,22 @@ h1, h2, h3, h4, h5, h6 {
 /* Back to top button */
 .md-top {
   background-color: var(--durham-purple);
+  color: var(--durham-yellow);
 }
 
 .md-top:hover,
 .md-top:focus {
   background-color: var(--durham-purple-dark);
+  color: #f5ca1a;
+}
+
+.md-top svg {
+  fill: var(--durham-yellow);
+}
+
+.md-top:hover svg,
+.md-top:focus svg {
+  fill: #f5ca1a;
 }
 
 /* Improve spacing and readability for content */
@@ -331,4 +472,143 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f5ca1a;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(104, 36, 109, 0.2);
+}
+
+/* Project Logos Styling */
+.project-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+  padding: 2rem 1rem;
+  background: white;
+  border: 1px solid var(--durham-concrete);
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-logo {
+  max-height: 80px;
+  width: auto;
+  display: block;
+}
+
+.durham-logo {
+  max-width: 200px;
+}
+
+.ukri-logo {
+  max-width: 180px;
+}
+
+@media screen and (max-width: 60em) {
+  .project-logos {
+    gap: 2rem;
+    padding: 1.5rem 1rem;
+  }
+  
+  .partner-logo {
+    max-height: 60px;
+  }
+  
+  .durham-logo {
+    max-width: 160px;
+  }
+  
+  .ukri-logo {
+    max-width: 140px;
+  }
+}
+
+/* Logo styling in other contexts */
+.md-typeset img.partner-logo {
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* Image Grid Styling */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border: 1px solid var(--durham-concrete);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.image-item em {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--durham-ink);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 60em) {
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* Ensure images maintain aspect ratio */
+.md-typeset .image-item img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Profile Picture Styling - Durham Branding */
+.profile-section {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.profile-picture {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 0 0 50% 0;
+  object-fit: cover;
+  border: 2px solid var(--durham-concrete);
+}
+
+.profile-content {
+  flex: 1;
+}
+
+@media screen and (max-width: 60em) {
+  .profile-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+  }
 }
