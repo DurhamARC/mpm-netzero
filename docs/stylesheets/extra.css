@@ -579,3 +579,36 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
   display: block;
 }
+
+/* Profile Picture Styling - Durham Branding */
+.profile-section {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.profile-picture {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 0 0 50% 0;
+  object-fit: cover;
+  border: 2px solid var(--durham-concrete);
+}
+
+.profile-content {
+  flex: 1;
+}
+
+@media screen and (max-width: 60em) {
+  .profile-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+  }
+}

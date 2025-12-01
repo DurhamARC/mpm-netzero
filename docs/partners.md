@@ -10,11 +10,22 @@ Durham University has over 10 years of experience developing and applying the Ma
 
 ### Project Team
 
+<div class="profile-section">
+<img src="../img/w-coombs.jpg" alt="Dr William Coombs" class="profile-picture">
+<div class="profile-content">
+
 #### Principal Investigator
 **[Dr William Coombs](https://www.durham.ac.uk/staff/w-m-coombs/)**
 *Department of Engineering, Durham University*
 
 Dr Coombs leads the project, bringing extensive expertise in the Material Point Method and computational geotechnics.
+
+</div>
+</div>
+
+<div class="profile-section">
+<img src="../img/c-augarde.jpg" alt="Professor Charles Augarde" class="profile-picture">
+<div class="profile-content">
 
 #### Co-Investigator
 **[Professor Charles Augarde](https://www.durham.ac.uk/staff/charles-augarde/)**
@@ -22,17 +33,34 @@ Dr Coombs leads the project, bringing extensive expertise in the Material Point 
 
 Professor Augarde contributes deep knowledge in geotechnical engineering and numerical methods for large deformation problems.
 
+</div>
+</div>
+
+<div class="profile-section">
+<img src="../img/r-bird.jpg" alt="Dr Robert Bird" class="profile-picture">
+<div class="profile-content">
+
 #### Research Associate
 **[Dr Robert Bird](https://www.durham.ac.uk/staff/robert-e-bird/)**
 *Department of Engineering, Durham University*
 
 Dr Bird is the postdoctoral researcher responsible for implementing and developing the MPM software framework.
 
+</div>
+</div>
+
+<div class="profile-section">
+<img src="../img/s-finnigan.jpg" alt="Samantha Finnigan" class="profile-picture">
+<div class="profile-content">
+
 #### Research Software Engineer
 **[Samantha Finnigan](https://www.durham.ac.uk/staff/samantha-finnigan/)**
 *Advanced Research Computing, Durham University*
 
 Samantha provides professional software engineering expertise, implementing best practices in software development, testing, and deployment.
+
+</div>
+</div>
 
 ### Advanced Research Computing (ARC) Support
 
