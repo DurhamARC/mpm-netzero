@@ -5,7 +5,7 @@
 </div>
 <div class="hero-content">
 <h1>MPM for Net Zero</h1>
-<h2>Advancing Offshore Renewable Energy Through Computational Innovation</h2>
+<h2>Leveraging The Material Point Method For Large Deformation Soil-Structure Interaction To Realise Net Zero</h2>
 <p>The Material Point Method (MPM) for Net Zero project is developing cutting-edge computational tools to address critical geotechnical challenges in the offshore renewable energy sector. By enabling accurate simulation of large deformation soil-structure interactions, this work directly supports the UK's transition to net zero emissions.</p>
 </div>
 </div>
@@ -26,6 +26,9 @@ Currently, the industry lacks convenient, accurate, and robust modelling framewo
 ## Our Solution
 
 This project transitions Durham University's world-leading, UKRI-funded, MPM-based modelling software into the offshore renewable energy geotechnical community. The Material Point Method overcomes limitations of traditional finite element approaches when dealing with extreme deformations, providing engineers with powerful new capabilities.
+
+![Anchor drag 1 at start of drag](img/drag-000.png)
+![Anchor drag 2 showing deformation](img/drag-001.png)
 
 ## Key Objectives
 
