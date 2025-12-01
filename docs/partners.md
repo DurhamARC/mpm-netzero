@@ -11,25 +11,25 @@ Durham University has over 10 years of experience developing and applying the Ma
 ### Project Team
 
 #### Principal Investigator
-**Dr William Coombs**
+**[Dr William Coombs](https://www.durham.ac.uk/staff/w-m-coombs/)**
 *Department of Engineering, Durham University*
 
 Dr Coombs leads the project, bringing extensive expertise in the Material Point Method and computational geotechnics.
 
 #### Co-Investigator
-**Professor Charles Augarde**
+**[Professor Charles Augarde](https://www.durham.ac.uk/staff/charles-augarde/)**
 *Department of Engineering, Durham University*
 
 Professor Augarde contributes deep knowledge in geotechnical engineering and numerical methods for large deformation problems.
 
 #### Research Associate
-**Dr Robert Bird**
+**[Dr Robert Bird](https://www.durham.ac.uk/staff/robert-e-bird/)**
 *Department of Engineering, Durham University*
 
 Dr Bird is the postdoctoral researcher responsible for implementing and developing the MPM software framework.
 
 #### Research Software Engineer
-**Samantha Finnigan**
+**[Samantha Finnigan](https://www.durham.ac.uk/staff/samantha-finnigan/)**
 *Advanced Research Computing, Durham University*
 
 Samantha provides professional software engineering expertise, implementing best practices in software development, testing, and deployment.
