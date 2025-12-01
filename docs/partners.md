@@ -8,7 +8,33 @@ The project is led by Durham University's Department of Engineering, which hosts
 
 Durham University has over 10 years of experience developing and applying the Material Point Method to geotechnical engineering challenges, supported by previous EPSRC-funded projects. This extensive research, validation, and benchmarking provides the foundation for transitioning the MPM into an industry-ready software tool.
 
-#### Advanced Research Computing (ARC) Support
+### Project Team
+
+#### Principal Investigator
+**Dr William Coombs**
+*Department of Engineering, Durham University*
+
+Dr Coombs leads the project, bringing extensive expertise in the Material Point Method and computational geotechnics.
+
+#### Co-Investigator
+**Professor Charles Augarde**
+*Department of Engineering, Durham University*
+
+Professor Augarde contributes deep knowledge in geotechnical engineering and numerical methods for large deformation problems.
+
+#### Research Associate
+**Dr Robert Bird**
+*Department of Engineering, Durham University*
+
+Dr Bird is the postdoctoral researcher responsible for implementing and developing the MPM software framework.
+
+#### Research Software Engineer
+**Samantha Finnigan**
+*Advanced Research Computing, Durham University*
+
+Samantha provides professional software engineering expertise, implementing best practices in software development, testing, and deployment.
+
+### Advanced Research Computing (ARC) Support
 
 The project is supported by Durham University's Advanced Research Computing team, which provides:
 

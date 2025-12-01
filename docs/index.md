@@ -54,4 +54,13 @@ By reducing uncertainty and enabling more optimized technical solutions, this pr
 
 ---
 
-*This project is funded by UKRI and led by Durham University's Engineering Department in collaboration with leading offshore renewable energy industry partners.*
+## Project Information
+
+**Funding:** UK Research and Innovation (UKRI)
+**Project Reference:** UKRI788
+**Lead Institution:** Durham University Engineering Department
+
+**Principal Investigator:** Dr William Coombs
+**Co-Investigator:** Professor Charles Augarde
+
+This project is delivered in collaboration with leading offshore renewable energy industry partners including geotechnical consultancies, offshore wind developers, classification societies, and software partners.
