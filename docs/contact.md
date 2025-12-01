@@ -63,6 +63,8 @@ United Kingdom
 
 [Durham University Engineering Department Website](https://www.durham.ac.uk/departments/academic/engineering/)
 
+[Advanced Research Computing (ARC)](https://dur.ac.uk/arc/)
+
 ---
 
 *This page will be updated with specific contact details as the project develops. Please check back for the latest information.*
