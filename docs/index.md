@@ -1,10 +1,46 @@
-# Examples
+# MPM for Net Zero
 
-This project lists all options that are supported by Material for MkDocs and
-can be used as a basis for new projects or reproductions. Note that some options
-might currently be reserved for [sponsors]. Check the list of [available features]
-to be sure.
+## Advancing Offshore Renewable Energy Through Computational Innovation
 
-  [sponsors]: https://squidfunk.github.io/mkdocs-material/insiders/
-  [available features]: https://squidfunk.github.io/mkdocs-material/insiders/#whats-in-for-me
+The Material Point Method (MPM) for Net Zero project is developing cutting-edge computational tools to address critical geotechnical challenges in the offshore renewable energy sector. By enabling accurate simulation of large deformation soil-structure interactions, this work directly supports the UK's transition to net zero emissions.
 
+## The Challenge
+
+Offshore renewable energy, particularly offshore wind, is critical for the UK to reach its net zero and energy security targets. The UK's current 14GW offshore wind capacity must increase to 50GW by 2030 and over 120GW by 2050—representing annual investments of approximately £17bn and an industry employing around 200,000 people.
+
+The successful deployment of offshore renewable energy infrastructure depends on geotechnical engineers' ability to understand and predict how supporting structures, moorings, and enabling works interact with the seabed. These interactions are:
+
+- Truly three-dimensional
+- Involve large deformation soil-structure interaction
+- Include complex contact and friction effects
+- Exhibit history-dependent non-linear soil behaviour
+
+Currently, the industry lacks convenient, accurate, and robust modelling frameworks for these processes, instead relying on empirical models, expensive field trials, and conservative design approaches that increase costs.
+
+## Our Solution
+
+This project transitions Durham University's world-leading, UKRI-funded, MPM-based modelling software into the offshore renewable energy geotechnical community. The Material Point Method overcomes limitations of traditional finite element approaches when dealing with extreme deformations, providing engineers with powerful new capabilities.
+
+## Key Objectives
+
+1. **Transition fundamental MPM advances** into industry-accessible, useable, and robust modelling software
+2. **Demonstrate MPM capabilities** for key offshore renewable energy soil-structure interaction problems
+3. **Expand available soil material models** to meet industry expectations
+4. **Facilitate community adoption** through workshops, training, and user support
+5. **Provide proof of concept** for future commercialization with industry partner Oasys
+
+## Impact
+
+This work will empower offshore renewable energy engineers to:
+
+- Model problems that are currently impossible with existing tools
+- Optimize solutions for site-specific conditions (cable burial depths, foundation selection)
+- Reduce risk in expensive offshore operations
+- Better manage geotechnical uncertainty that drives significant capital costs
+- Quantify soil state changes during installation to improve capacity predictions
+
+By reducing uncertainty and enabling more optimized technical solutions, this project will help lower the Levelized Cost of Energy and fill a vital technical gap necessary for supporting the UK's target to achieve net zero by 2050.
+
+---
+
+*This project is funded by UKRI and led by Durham University's Engineering Department in collaboration with leading offshore renewable energy industry partners.*
