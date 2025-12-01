@@ -135,4 +135,4 @@ The offshore renewable energy sector is rapidly evolving, and we welcome engagem
 - Case study development
 - Software extension and development
 
-For more information about partnership opportunities, please see our [contact page](../contact.md).
+For more information about partnership opportunities, please see our [contact page](contact.md).
