@@ -50,7 +50,6 @@ theme:
     - navigation.expand
     - navigation.top
     - toc.follow
-  custom_dir: overrides
 
 # Navigation
 nav:
