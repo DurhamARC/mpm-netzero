@@ -56,6 +56,15 @@ By reducing uncertainty and enabling more optimized technical solutions, this pr
 
 ## Project Information
 
+<div class="project-logos" markdown="1">
+<div class="logo-container">
+![Durham University](img/DurhamUniversityMasterLogo_CMYK.svg){ .partner-logo .durham-logo }
+</div>
+<div class="logo-container">
+![UK Research and Innovation](img/ukri_logo_new-6d752aa0a1e6d8477ce5fcac6a04b3b8.svg){ .partner-logo .ukri-logo }
+</div>
+</div>
+
 **Funding:** UK Research and Innovation (UKRI)
 **Project Reference:** UKRI788
 **Lead Institution:** Durham University Engineering Department

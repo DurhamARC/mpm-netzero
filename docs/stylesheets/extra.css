@@ -462,3 +462,62 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(104, 36, 109, 0.2);
 }
+
+/* Project Logos Styling */
+.project-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+  padding: 2rem 1rem;
+  background: white;
+  border: 1px solid var(--durham-concrete);
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-logo {
+  max-height: 80px;
+  width: auto;
+  display: block;
+}
+
+.durham-logo {
+  max-width: 200px;
+}
+
+.ukri-logo {
+  max-width: 180px;
+}
+
+@media screen and (max-width: 60em) {
+  .project-logos {
+    gap: 2rem;
+    padding: 1.5rem 1rem;
+  }
+  
+  .partner-logo {
+    max-height: 60px;
+  }
+  
+  .durham-logo {
+    max-width: 160px;
+  }
+  
+  .ukri-logo {
+    max-width: 140px;
+  }
+}
+
+/* Logo styling in other contexts */
+.md-typeset img.partner-logo {
+  margin: 0;
+  vertical-align: middle;
+}
