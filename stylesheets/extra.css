@@ -37,13 +37,13 @@
 .hero-image {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
 }
 
 @media screen and (min-width: 60em) {
   .hero-image {
-    height: 500px;
+    height: 600px;
   }
 }
 
@@ -63,7 +63,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(to bottom, transparent 0%, rgba(104, 36, 109, 0.3) 60%, rgba(104, 36, 109, 0.8) 100%);
+  background: linear-gradient(to bottom, rgba(0, 42, 65, 0.3) 0%, rgba(104, 36, 109, 0.6) 50%, rgba(104, 36, 109, 0.9) 100%);
   pointer-events: none;
 }
 
@@ -93,10 +93,14 @@
 }
 
 .hero-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 2rem 1.5rem;
   color: white;
-  position: relative;
-  background: linear-gradient(135deg, var(--durham-purple-dark) 0%, var(--durham-ink) 100%);
+  background: transparent;
+  z-index: 2;
 }
 
 @media screen and (min-width: 60em) {
@@ -120,7 +124,7 @@
 }
 
 .hero-content h2 {
-  color: var(--durham-yellow);
+  color: var(--durham-gold);
   font-size: 1.3rem;
   margin: 0 0 1rem 0;
   font-weight: 500;
@@ -135,7 +139,19 @@
   }
 }
 
-.hero-content p {
+.hero-description {
+  padding: 2rem 1.5rem;
+  color: white;
+  background: linear-gradient(135deg, var(--durham-purple-dark) 0%, var(--durham-ink) 100%);
+}
+
+@media screen and (min-width: 60em) {
+  .hero-description {
+    padding: 3rem 4rem;
+  }
+}
+
+.hero-description p {
   color: rgba(255, 255, 255, 0.95);
   font-size: 1rem;
   line-height: 1.6;
@@ -144,7 +160,7 @@
 }
 
 @media screen and (min-width: 60em) {
-  .hero-content p {
+  .hero-description p {
     font-size: 1.1rem;
   }
 }
@@ -442,7 +458,42 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 76.25em) {
   .md-content {
-    padding: 2rem 2rem;
+    padding: 2rem 4rem;
+  }
+}
+
+/* Widen main content column on desktop */
+@media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: 1400px;
+  }
+
+  .md-main__inner {
+    max-width: none;
+  }
+
+  /* Add padding to sidebars to bring them inwards from page edges */
+  .md-sidebar--primary {
+    padding-left: 2rem;
+  }
+
+  .md-sidebar--secondary {
+    padding-right: 2rem;
+  }
+
+  /* Right-align sidebar navigation text */
+  .md-sidebar--primary .md-nav {
+    direction: rtl;
+  }
+
+  .md-sidebar--primary .md-nav__item {
+    direction: rtl;
+  }
+
+  .md-sidebar--primary .md-nav__link {
+    direction: ltr;
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
