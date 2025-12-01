@@ -19,6 +19,136 @@
   --durham-ink-light: #003d5c;
 }
 
+/* Hero Section Styling */
+.hero-section {
+  margin: -2rem -1rem 2rem -1rem;
+  padding: 0;
+  background: linear-gradient(135deg, var(--durham-purple) 0%, var(--durham-ink) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 76.25em) {
+  .hero-section {
+    margin: -2rem -2rem 2rem -2rem;
+  }
+}
+
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 60em) {
+  .hero-image {
+    height: 500px;
+  }
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  filter: brightness(0.8);
+}
+
+.hero-image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 0%, rgba(104, 36, 109, 0.3) 60%, rgba(104, 36, 109, 0.8) 100%);
+  pointer-events: none;
+}
+
+.image-attribution {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 42, 65, 0.6);
+  padding: 4px 8px;
+  border-radius: 3px;
+  margin: 0;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+}
+
+.image-attribution a {
+  color: var(--durham-yellow);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.image-attribution a:hover {
+  color: #f5ca1a;
+  text-decoration: underline;
+}
+
+.hero-content {
+  padding: 2rem 1.5rem;
+  color: white;
+  position: relative;
+  background: linear-gradient(135deg, var(--durham-purple-dark) 0%, var(--durham-ink) 100%);
+}
+
+@media screen and (min-width: 60em) {
+  .hero-content {
+    padding: 3rem 4rem;
+  }
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 60em) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+}
+
+.hero-content h2 {
+  color: var(--durham-yellow);
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+  border: none;
+  padding: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 60em) {
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.hero-content p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 900px;
+}
+
+@media screen and (min-width: 60em) {
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+}
+
 /* Base Typography - Open Sans with Durham guidelines */
 body {
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
