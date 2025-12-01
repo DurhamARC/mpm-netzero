@@ -37,8 +37,11 @@ copyright: Copyright &copy; 2025 Durham University
 theme:
   name: material
   palette:
-    primary: blue
-    accent: light blue
+    primary: custom
+    accent: custom
+  font:
+    text: Open Sans
+    code: Roboto Mono
   features:
     - content.code.copy
     - content.tooltips
@@ -47,6 +50,7 @@ theme:
     - navigation.expand
     - navigation.top
     - toc.follow
+  custom_dir: overrides
 
 # Navigation
 nav:
@@ -63,6 +67,10 @@ nav:
 # Plugins
 plugins:
   - search
+
+# Custom CSS
+extra_css:
+  - stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
